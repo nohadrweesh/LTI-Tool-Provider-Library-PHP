@@ -111,7 +111,7 @@ class HTTPMessage
 
         $this->ok = false;
 // Try using curl if available
-        if (function_exists('curl_init')) {
+       /* if (!function_exists('curl_init')) {
             $resp = '';
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_URL, $this->url);
@@ -132,7 +132,7 @@ class HTTPMessage
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($ch, CURLINFO_HEADER_OUT, true);
             curl_setopt($ch, CURLOPT_HEADER, true);
-            //curl_setopt($ch, CURLOPT_SSLVERSION,3);
+            curl_setopt($ch, CURLOPT_SSLVERSION,3);
             $chResp = curl_exec($ch);
             $this->ok = $chResp !== false;
             if ($this->ok) {
@@ -152,7 +152,7 @@ class HTTPMessage
             $this->requestHeaders = str_replace("\r\n", "\n", curl_getinfo($ch, CURLINFO_HEADER_OUT));
             curl_close($ch);
             $this->response = $resp;
-        } else {
+        } else {*/
 // Try using fopen if curl was not available
             $opts = array('method' => $this->method,
                           'content' => $this->request
@@ -163,14 +163,16 @@ class HTTPMessage
             try {
                 $ctx = stream_context_create(array('http' => $opts));
                 $fp = @fopen($this->url, 'rb', false, $ctx);
+                //dd($fp);
                 if ($fp) {
                     $resp = @stream_get_contents($fp);
                     $this->ok = $resp !== false;
+                    $this->response=$resp;
                 }
             } catch (\Exception $e) {
                 $this->ok = false;
             }
-        }
+        //}
 
         return $this->ok;
 

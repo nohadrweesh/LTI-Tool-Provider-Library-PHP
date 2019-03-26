@@ -555,6 +555,7 @@ class ResourceLink
 // Use LTI 1.1 service in preference to extension service if it is available
         $urlLTI11 = $sourceResourceLink->getSetting('lis_outcome_service_url');
         $urlExt = $sourceResourceLink->getSetting('ext_ims_lis_basic_outcome_url');
+        //dd($action, $ltiOutcome, $user,$urlLTI11);
         if ($urlExt || $urlLTI11) {
             switch ($action) {
                 case self::EXT_READ:
@@ -610,6 +611,7 @@ EOF;
       </resultRecord>
 EOF;
                 if ($this->doLTI11Service($do, $urlLTI11, $xml)) {
+                    //dd("insode");
                     switch ($action) {
                         case self::EXT_READ:
                             if (!isset($this->extNodes['imsx_POXBody']["{$do}Response"]['result']['resultScore']['textString'])) {
@@ -660,7 +662,7 @@ EOF;
                 $response = '';
             }
         }
-
+//dd($response);
         return $response;
 
     }
@@ -1188,7 +1190,7 @@ EOF;
  */
     private function doLTI11Service($type, $url, $xml)
     {
-
+//dd("lll",$type, $url, $xml);
         $ok = false;
         $this->extRequest = null;
         $this->extRequestHeaders = '';
@@ -1228,6 +1230,7 @@ EOD;
             $http = new HTTPMessage($url, 'POST', $xmlRequest, $header);
 // Parse XML response
             if ($http->send()) {
+                //dd("send");
                 $this->extResponse = $http->response;
                 $this->extResponseHeaders = $http->responseHeaders;
                 try {
@@ -1259,7 +1262,7 @@ EOD;
     private function domnodeToArray($node)
     {
 
-        $output = '';
+        $output = array();
         switch ($node->nodeType) {
             case XML_CDATA_SECTION_NODE:
             case XML_TEXT_NODE:
