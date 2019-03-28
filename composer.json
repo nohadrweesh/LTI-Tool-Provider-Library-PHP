@@ -1,5 +1,5 @@
 {
-    "name": "imsglobalnd/lti",
+    "name": "imsglobal/lti",
     "version" : "3.0.2",
     "description": "LTI Tool Provider Library",
     "keywords": ["lti"],
@@ -8,8 +8,8 @@
     "license": "Apache-2.0",
     "authors":[
         {
-            "name": "Noha Drweesh",
-            "email": "nohadrweesh@gmail.com"
+            "name": "Stephen Vickers",
+            "email": "svickers@imsglobal.org"
         }
     ],
     "require":{
@@ -17,7 +17,7 @@
     },
     "autoload":{
         "psr-4": {
-            "IMSGlobalND\\LTI\\": "src/"
+            "IMSGlobal\\LTI\\": "src/"
         }
     }
 }
