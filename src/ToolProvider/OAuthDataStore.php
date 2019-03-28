@@ -1,8 +1,8 @@
 <?php
 
-namespace IMSGlobal\LTI\ToolProvider;
+namespace IMSGlobalND\LTI\ToolProvider;
 
-use IMSGlobal\LTI\OAuth;
+use IMSGlobalND\LTI\OAuth;
 
 /**
  * Class to represent an OAuth datastore

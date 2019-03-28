@@ -1,6 +1,6 @@
 <?php
 
-namespace IMSGlobal\LTI\ToolProvider\MediaType;
+namespace IMSGlobalND\LTI\ToolProvider\MediaType;
 
 /**
  * Class to represent an LTI Message

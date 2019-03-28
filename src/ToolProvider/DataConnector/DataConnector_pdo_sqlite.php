@@ -1,10 +1,10 @@
 <?php
 
-namespace IMSGlobal\LTI\ToolProvider\DataConnector;
+namespace IMSGlobalND\LTI\ToolProvider\DataConnector;
 
-use IMSGlobal\LTI\ToolProvider;
-use IMSGlobal\LTI\ToolProvider\Context;
-use IMSGlobal\LTI\ToolProvider\ToolConsumer;
+use IMSGlobalND\LTI\ToolProvider;
+use IMSGlobalND\LTI\ToolProvider\Context;
+use IMSGlobalND\LTI\ToolProvider\ToolConsumer;
 use PDO;
 
 /**

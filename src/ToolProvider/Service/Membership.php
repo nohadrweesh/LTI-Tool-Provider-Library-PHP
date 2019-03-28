@@ -1,8 +1,8 @@
 <?php
 
-namespace IMSGlobal\LTI\ToolProvider\Service;
+namespace IMSGlobalND\LTI\ToolProvider\Service;
 
-use IMSGlobal\LTI\ToolProvider;
+use IMSGlobalND\LTI\ToolProvider;
 
 /**
  * Class to implement the Membership service
@@ -48,7 +48,7 @@ class Membership extends Service
  */
     public function get($role = null, $limit = 0) {
 
-        $isLink = is_a($this->source, 'IMSGlobal\LTI\ToolProvider\ResourceLink');
+        $isLink = is_a($this->source, 'IMSGlobalND\LTI\ToolProvider\ResourceLink');
         $parameters = array();
         if (!empty($role)) {
             $parameters['role'] = $role;

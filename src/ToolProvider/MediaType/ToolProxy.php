@@ -1,9 +1,9 @@
 <?php
 
-namespace IMSGlobal\LTI\ToolProvider\MediaType;
+namespace IMSGlobalND\LTI\ToolProvider\MediaType;
 
-use IMSGlobal\LTI\Profile\ServiceDefinition;
-use IMSGlobal\LTI\ToolProvider\ToolProvider;
+use IMSGlobalND\LTI\Profile\ServiceDefinition;
+use IMSGlobalND\LTI\ToolProvider\ToolProvider;
 
 /**
  * Class to represent an LTI Tool Proxy media type

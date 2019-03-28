@@ -1,13 +1,13 @@
 <?php
 
-namespace IMSGlobal\LTI\ToolProvider;
+namespace IMSGlobalND\LTI\ToolProvider;
 
-use IMSGlobal\LTI\Profile\Item;
-use IMSGlobal\LTI\ToolProvider\DataConnector\DataConnector;
-use IMSGlobal\LTI\ToolProvider\MediaType;
-use IMSGlobal\LTI\Profile;
-use IMSGlobal\LTI\HTTPMessage;
-use IMSGlobal\LTI\OAuth;
+use IMSGlobalND\LTI\Profile\Item;
+use IMSGlobalND\LTI\ToolProvider\DataConnector\DataConnector;
+use IMSGlobalND\LTI\ToolProvider\MediaType;
+use IMSGlobalND\LTI\Profile;
+use IMSGlobalND\LTI\HTTPMessage;
+use IMSGlobalND\LTI\OAuth;
 
 /**
  * Class to represent an LTI Tool Provider

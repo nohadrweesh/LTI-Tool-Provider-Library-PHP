@@ -1,6 +1,6 @@
 <?php
 
-namespace IMSGlobal\LTI\OAuth;
+namespace IMSGlobalND\LTI\OAuth;
 
 /**
  * Class to represent an %OAuth Exception

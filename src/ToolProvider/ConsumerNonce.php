@@ -1,6 +1,6 @@
 <?php
 
-namespace IMSGlobal\LTI\ToolProvider;
+namespace IMSGlobalND\LTI\ToolProvider;
 
 /**
  * Class to represent a tool consumer nonce

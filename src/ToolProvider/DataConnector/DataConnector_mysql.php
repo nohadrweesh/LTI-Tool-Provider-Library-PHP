@@ -1,14 +1,14 @@
 <?php
 
-namespace IMSGlobal\LTI\ToolProvider\DataConnector;
+namespace IMSGlobalND\LTI\ToolProvider\DataConnector;
 
-use IMSGlobal\LTI\ToolProvider;
-use IMSGlobal\LTI\ToolProvider\ConsumerNonce;
-use IMSGlobal\LTI\ToolProvider\Context;
-use IMSGlobal\LTI\ToolProvider\ResourceLink;
-use IMSGlobal\LTI\ToolProvider\ResourceLinkShareKey;
-use IMSGlobal\LTI\ToolProvider\ToolConsumer;
-use IMSGlobal\LTI\ToolProvider\User;
+use IMSGlobalND\LTI\ToolProvider;
+use IMSGlobalND\LTI\ToolProvider\ConsumerNonce;
+use IMSGlobalND\LTI\ToolProvider\Context;
+use IMSGlobalND\LTI\ToolProvider\ResourceLink;
+use IMSGlobalND\LTI\ToolProvider\ResourceLinkShareKey;
+use IMSGlobalND\LTI\ToolProvider\ToolConsumer;
+use IMSGlobalND\LTI\ToolProvider\User;
 
 /**
  * Class to represent an LTI Data Connector for MySQL

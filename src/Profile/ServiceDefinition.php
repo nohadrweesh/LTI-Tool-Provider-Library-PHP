@@ -1,6 +1,6 @@
 <?php
 
-namespace IMSGlobal\LTI\Profile;
+namespace IMSGlobalND\LTI\Profile;
 
 /**
  * Class to represent an LTI service object

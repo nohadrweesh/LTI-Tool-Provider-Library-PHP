@@ -1,9 +1,9 @@
 <?php
 
-namespace IMSGlobal\LTI\ToolProvider\Service;
+namespace IMSGlobalND\LTI\ToolProvider\Service;
 
-use IMSGlobal\LTI\ToolProvider;
-use IMSGlobal\LTI\HTTPMessage;
+use IMSGlobalND\LTI\ToolProvider;
+use IMSGlobalND\LTI\HTTPMessage;
 
 /**
  * Class to implement a service
