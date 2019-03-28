@@ -1,6 +1,6 @@
 <?php
 
-namespace IMSGlobalND\LTI\OAuth;
+namespace IMSGlobal\LTI\OAuth;
 
 /**
  * Class to provide %OAuth utility methods
@@ -14,7 +14,7 @@ class OAuthUtil {
     public static function urlencode_rfc3986($input) {
 
         if (is_array($input)) {
-            return array_map(array('IMSGlobalND\LTI\OAuth\OAuthUtil', 'urlencode_rfc3986'), $input);
+            return array_map(array('IMSGlobal\LTI\OAuth\OAuthUtil', 'urlencode_rfc3986'), $input);
         } else if (is_scalar($input)) {
             return str_replace('+', ' ', str_replace('%7E', '~', rawurlencode($input)));
         } else {

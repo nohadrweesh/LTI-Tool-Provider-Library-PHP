@@ -1,6 +1,6 @@
 <?php
 
-namespace IMSGlobalND\LTI\OAuth;
+namespace IMSGlobal\LTI\OAuth;
 
 /**
  * Class to represent an %OAuth Request

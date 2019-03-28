@@ -1,7 +1,7 @@
 <?php
 
-namespace IMSGlobalND\LTI\ToolProvider;
-use IMSGlobalND\LTI\ToolProvider\DataConnector\DataConnector;
+namespace IMSGlobal\LTI\ToolProvider;
+use IMSGlobal\LTI\ToolProvider\DataConnector\DataConnector;
 
 /**
  * Class to represent a tool consumer user

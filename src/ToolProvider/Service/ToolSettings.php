@@ -1,6 +1,6 @@
 <?php
 
-namespace IMSGlobalND\LTI\ToolProvider\Service;
+namespace IMSGlobal\LTI\ToolProvider\Service;
 
 /**
  * Class to implement the Tool Settings service
@@ -59,7 +59,7 @@ class ToolSettings extends Service
     public function __construct($source, $endpoint, $simple = true)
     {
 
-        if (is_a($source, 'IMSGlobalND\LTI\ToolProvider\ToolConsumer')) {
+        if (is_a($source, 'IMSGlobal\LTI\ToolProvider\ToolConsumer')) {
             $consumer = $source;
         } else {
             $consumer = $source->getConsumer();

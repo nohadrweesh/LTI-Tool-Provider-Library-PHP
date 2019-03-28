@@ -1,9 +1,9 @@
 <?php
 
-namespace IMSGlobalND\LTI\ToolProvider;
+namespace IMSGlobal\LTI\ToolProvider;
 
-use IMSGlobalND\LTI\ToolProvider\DataConnector\DataConnector;
-use IMSGlobalND\LTI\ToolProvider\MediaType;
+use IMSGlobal\LTI\ToolProvider\DataConnector\DataConnector;
+use IMSGlobal\LTI\ToolProvider\MediaType;
 
 /**
  * Class to represent an LTI Tool Proxy

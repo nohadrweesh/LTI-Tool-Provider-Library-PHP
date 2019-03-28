@@ -1,11 +1,11 @@
 <?php
 
-namespace IMSGlobalND\LTI\ToolProvider;
+namespace IMSGlobal\LTI\ToolProvider;
 
-use IMSGlobalND\LTI\ToolProvider\DataConnector\DataConnector;
-use IMSGlobalND\LTI\ToolProvider\Service;
-use IMSGlobalND\LTI\HTTPMessage;
-use IMSGlobalND\LTI\OAuth;
+use IMSGlobal\LTI\ToolProvider\DataConnector\DataConnector;
+use IMSGlobal\LTI\ToolProvider\Service;
+use IMSGlobal\LTI\HTTPMessage;
+use IMSGlobal\LTI\OAuth;
 
 /**
  * Class to represent a tool consumer

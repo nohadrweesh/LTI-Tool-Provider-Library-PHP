@@ -1,8 +1,8 @@
 <?php
 
-namespace IMSGlobalND\LTI\ToolProvider;
+namespace IMSGlobal\LTI\ToolProvider;
 
-use IMSGlobalND\LTI\ToolProvider\DataConnector\DataConnector;
+use IMSGlobal\LTI\ToolProvider\DataConnector\DataConnector;
 
 /**
  * Class to represent a tool consumer resource link share key

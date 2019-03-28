@@ -1,6 +1,6 @@
 <?php
 
-namespace IMSGlobalND\LTI\Profile;
+namespace IMSGlobal\LTI\Profile;
 
 /**
  * Class to represent a resource handler object

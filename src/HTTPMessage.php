@@ -1,6 +1,6 @@
 <?php
 
-namespace IMSGlobalND\LTI;
+namespace IMSGlobal\LTI;
 
 /**
  * Class to represent an HTTP message

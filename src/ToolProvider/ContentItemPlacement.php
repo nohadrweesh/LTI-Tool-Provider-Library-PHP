@@ -1,6 +1,6 @@
 <?php
 
-namespace IMSGlobalND\LTI\ToolProvider;
+namespace IMSGlobal\LTI\ToolProvider;
 
 /**
  * Class to represent a content-item placement object

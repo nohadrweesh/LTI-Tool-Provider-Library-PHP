@@ -1,7 +1,7 @@
 <?php
 
-namespace IMSGlobalND\LTI\ToolProvider\MediaType;
-use IMSGlobalND\LTI\ToolProvider\ToolProvider;
+namespace IMSGlobal\LTI\ToolProvider\MediaType;
+use IMSGlobal\LTI\ToolProvider\ToolProvider;
 
 /**
  * Class to represent an LTI Security Contract document
